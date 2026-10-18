@@ -1,0 +1,6 @@
+# Build artifacts
+*.exe
+*.o
+*.obj
+*.pdb
+output/
