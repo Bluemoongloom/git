@@ -36,7 +36,7 @@ const char *kmp_search(const char *S, const char *T, const size_t *Next) {
 
 int main(void) {
     char text[1000], pattern[1000];
-    if (scanf("%999s %999s", text, pattern) != 2) {
+    if (scanf( "%999s %999s", text, pattern) != 2) {
         fprintf(stderr, "请输入主串和模式串。\n");
         return EXIT_FAILURE;
     }
