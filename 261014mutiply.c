@@ -1,3 +1,4 @@
+#include <stdio.h>
 #define MAXN 5000
 int small[MAXN];    //小于x的队伍
 int large[MAXN];    //大于等于x的队伍

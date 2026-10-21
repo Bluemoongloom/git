@@ -1,3 +1,4 @@
+#include <stdio.h>
 #define MAXN 100000
 int a[MAXN]; //A对每个石子的评价
 int count[201];//记录每种价值和的石子数量
